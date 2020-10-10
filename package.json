@@ -1,0 +1,21 @@
+{
+  "name": "endtoendencryptedchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.server.js",
+    "dev": "nodemon app.server.js"
+  },
+  "author": "Kaushik Jadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express.js": "^1.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
